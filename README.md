@@ -24,8 +24,6 @@ Download these datasets to train the assistant:
 2. Choose **Web** as the platform.  
 3. Select **Start From Scratch**.  
 
----
-
 ### 4. Add Knowledge Base
 1. In the left sidebar, go to **Knowledge Base**.  
 2. Upload the following PDFs:  
@@ -34,3 +32,19 @@ Download these datasets to train the assistant:
    - *“Do you have vegan options?”*
     
 ![Knowledge Base Upload](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww1.png)  
+
+### 5. **Go to the Builder Section**  
+   - This is where we will be building the entire framework.
+
+### 6. **Click on the Block Symbol ➕**  
+   - This lets you create your first building block.  
+
+### 7. **Set up the First Text Block**  
+   - Label the block as **`greeting`**  
+   - Enter the following text:  
+
+     ```
+     Welcome to Starbucks!  
+     I am Joanne, how can I assist you today?
+     ```
+
