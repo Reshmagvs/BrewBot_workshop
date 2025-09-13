@@ -23,8 +23,9 @@ Download these datasets to train the assistant:
 1. From the Chatling dashboard, click **New → AI Chatbot**.  
 2. Choose **Web** as the platform.  
 3. Select **Start From Scratch**.  
+![setup](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww3.png)
 
-4. Add Knowledge Base
+5. Add Knowledge Base
 1. In the left sidebar, go to **Knowledge Base**.  
 2. Upload the following PDFs:  
 3. Once uploaded, the assistant will be able to answer questions like:  
@@ -47,8 +48,7 @@ Download these datasets to train the assistant:
      When answering the questions about the product enquiries, 
      include a URL to the product page: https://www.starbucks.com/menu
      ```
-
- 
+![builder](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww4.png)
 
 6. **Click on the Block Symbol**  
    - This lets you create your first building block.  
@@ -79,7 +79,7 @@ Download these datasets to train the assistant:
        ```
        {User_Query}
        ```
-
+![start](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww8.png)
 10. **Intent Block**  
    - Add an **Intent Block** as " order status "  
    - In Chatling, an **intent** represents the underlying goal or purpose a user wants to achieve when they interact with the chatbot.  
@@ -96,7 +96,7 @@ Download these datasets to train the assistant:
 
       Example: 112
       ```
-
+![intent](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww7.png)
 12. **Capture Order Number**  
     - Add a **Capture Response Block**  
     - Label it as **`capture and store the order number`**  
@@ -165,9 +165,8 @@ Download these datasets to train the assistant:
       Thank you for chatting with us today! 
       If you have any questions, feel free to start a new chat!
       ```
-
 ---
-
+![intent](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww9.png)
 ## 👩‍💼 Human Agent Support Flow
 
 18. **New Intent: Connect with Human Agent**  
@@ -199,7 +198,7 @@ Download these datasets to train the assistant:
       ```
 
 ---
-
+![human agent](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww10.png)
 ## 🧩 Final Step: Intent Matching
 
 21. **Update Capture User Question Block**  
@@ -215,5 +214,7 @@ Download these datasets to train the assistant:
 - Order number validation ✅  
 - Order status updates 📦  
 - Human agent escalation 👩‍💼  
+
+(https://share.chatling.ai/s/jWnz135sdK5hml8)
 
 Your chatbot is ready to serve customers!
