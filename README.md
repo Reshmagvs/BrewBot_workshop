@@ -34,7 +34,21 @@ Download these datasets to train the assistant:
 ![Knowledge Base Upload](https://github.com/Reshmagvs/BrewBot_workshop/blob/main/ww1.png)  
 
 ### 5. **Go to the Builder Section**  
-   - This is where we will be building the entire framework.
+  - This is where we will be building the entire framework.
+ **AI Configuration**  
+   - Click on **AI Configuration** → **Instruction, Name, Tone**  
+   - Add the following instruction:  
+
+     ```
+     Your name is "Joanne" and you are our customer support assistant. 
+     When referring to yourself, do not mention anything about being an AI assistant or AI model. 
+     Instead, refer to yourself as "Joanne".
+
+     When answering the questions about the product enquiries, 
+     include a URL to the product page: https://www.starbucks.com/menu
+     ```
+
+ 
 
 ### 6. **Click on the Block Symbol ➕**  
    - This lets you create your first building block.  
@@ -48,3 +62,30 @@ Download these datasets to train the assistant:
      I am Joanne, how can I assist you today?
      ```
 
+### 8. **Capture User Response**  
+   - Add a **Capture Response Text Block**  
+   - Label it as **`capture user question`**  
+   - Create a variable:  
+     ```
+     User_Query
+     ```
+     This will store the user’s input for later use.
+
+###9. **AI Response Block**  
+   - Add an **AI Response Block**  
+   - Configure it as follows:  
+     - **Response Source:** Knowledge Base  
+     - **Question Section:**  
+       ```
+       {User_Query}
+       ```
+
+### 10. **Intent Block**  
+   - Add an **Intent Block**  
+   - In Chatling, an **intent** represents the underlying goal or purpose a user wants to achieve when they interact with the chatbot.  
+   - Example intents:  
+     - **Order Coffee**  
+     - **Check Menu**  
+     - **Store Timings**
+    
+ 
