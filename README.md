@@ -50,7 +50,7 @@ Download these datasets to train the assistant:
 
  
 
-### 6. **Click on the Block Symbol **  
+### 6. **Click on the Block Symbol**  
    - This lets you create your first building block.  
 
 ### 7. **Set up the First Text Block**  
