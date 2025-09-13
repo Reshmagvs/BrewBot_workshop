@@ -9,7 +9,7 @@ The assistant can:
 
 ---
 
-## 🚀 Steps to Create Your AI Coffee Shop Assistant
+## Steps to Create Your AI Coffee Shop Assistant
 
 ### 1. Create a Chatling Account
 - Sign up for free at 👉 [https://chatling.ai/](https://chatling.ai/)
